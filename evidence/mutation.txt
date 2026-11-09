@@ -1,0 +1,6 @@
+Mutation check (2026-11-09): each mutation applied to plugins/windows/evtxscan.py, `pytest tests` rerun, original restored.
+M1 data CRC always reported OK          -> 1 failed, 9 passed
+M2 record length-repeat check removed   -> 1 failed, 9 passed
+M3 chunks not ordered when rebuilding    -> 1 failed, 9 passed
+M4 stop at first damaged record          -> 2 failed, 8 passed
+Unmutated: 10 passed

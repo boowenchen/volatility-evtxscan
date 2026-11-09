@@ -1,0 +1,229 @@
+{
+ "memlabs-lab1": {
+  "sample": "MemLabs Lab 1",
+  "os": "Windows 7 SP1 x64 (7601)",
+  "source": "https://github.com/stuxnet999/MemLabs",
+  "sha256": "2369567bda9457c4ae762ad4949dd138a373eefbfcdd37a6131e460a17f05be1 (MemLabs-Lab1.7z)",
+  "records": 1037,
+  "by_source": {
+   "process": 827,
+   "physical": 210
+  },
+  "channels": 24,
+  "channels_only_in_physical": 9,
+  "records_unrendered": 123,
+  "notes": {
+   "channel not mapped": 36,
+   "older than mapped chunks": 51
+  }
+ },
+ "case001-desktop": {
+  "sample": "DFIR Madness Case 001 DESKTOP-SDN1RPT",
+  "os": "Windows 10 (19041)",
+  "source": "https://dfirmadness.com/the-stolen-szechuan-sauce/",
+  "sha256": "fce1bdd584cd52d7830f7f9a209e960ca151ce174ebdef3fad03205ab7e33d01 (DESKTOP-SDN1RPT-memory.zip)",
+  "records": 225,
+  "by_source": {
+   "process": 52,
+   "physical": 173
+  },
+  "channels": 42,
+  "channels_only_in_physical": 34,
+  "records_unrendered": 36,
+  "notes": {
+   "channel not mapped": 126,
+   "older than mapped chunks": 12
+  }
+ },
+ "case001-dc01": {
+  "sample": "DFIR Madness Case 001 CITADEL-DC01",
+  "os": "Windows Server 2012 R2 (9600)",
+  "source": "https://dfirmadness.com/the-stolen-szechuan-sauce/",
+  "sha256": "86658d85d8254e8d30dccc4f50d9c2a8b550a101d2e78a6d932316849e37ad80 (DC01-memory.zip)",
+  "records": 17882,
+  "by_source": {
+   "process": 2330,
+   "physical": 15552
+  },
+  "channels": 49,
+  "channels_only_in_physical": 24,
+  "records_unrendered": 2841,
+  "notes": {
+   "older than mapped chunks": 13436,
+   "channel not mapped": 229
+  },
+  "attacker_ip_194.61.24.102": [
+   {
+    "Source": "physical",
+    "Offset": "0x7174908",
+    "TimeCreated": "2020-09-19 03:20:25.907403 UTC",
+    "EventID": "131",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ConnType=TCP; ClientIP=194.61.24.102:39958"
+   },
+   {
+    "Source": "physical",
+    "Offset": "0x73c4200",
+    "TimeCreated": "2020-09-19 03:20:25.953455 UTC",
+    "EventID": "139",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ResultCode=0x80090304; IPString=194.61.24.102"
+   },
+   {
+    "Source": "physical",
+    "Offset": "0x73c4d60",
+    "TimeCreated": "2020-09-19 03:20:25.953455 UTC",
+    "EventID": "131",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ConnType=TCP; ClientIP=194.61.24.102:40004"
+   },
+   {
+    "Source": "physical",
+    "Offset": "0x97ce200",
+    "TimeCreated": "2020-09-19 03:20:25.797252 UTC",
+    "EventID": "139",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ResultCode=0x80090304; IPString=194.61.24.102"
+   },
+   {
+    "Source": "physical",
+    "Offset": "0x97ced60",
+    "TimeCreated": "2020-09-19 03:20:25.797252 UTC",
+    "EventID": "131",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ConnType=TCP; ClientIP=194.61.24.102:39868"
+   },
+   {
+    "Source": "physical",
+    "Offset": "0xa0c8d10",
+    "TimeCreated": "2020-09-19 03:21:38.453588 UTC",
+    "EventID": "131",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ConnType=TCP; ClientIP=194.61.24.102:40160"
+   },
+   {
+    "Source": "physical",
+    "Offset": "0xa107908",
+    "TimeCreated": "2020-09-19 03:20:25.609687 UTC",
+    "EventID": "131",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ConnType=TCP; ClientIP=194.61.24.102:39686"
+   },
+   {
+    "Source": "physical",
+    "Offset": "0x13214af0",
+    "TimeCreated": "2020-09-19 03:21:26.282505 UTC",
+    "EventID": "131",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ConnType=TCP; ClientIP=194.61.24.102:40050"
+   },
+   {
+    "Source": "physical",
+    "Offset": "0x141d7200",
+    "TimeCreated": "2020-09-19 03:20:25.656521 UTC",
+    "EventID": "139",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ResultCode=0x80090304; IPString=194.61.24.102"
+   },
+   {
+    "Source": "physical",
+    "Offset": "0x141d7d60",
+    "TimeCreated": "2020-09-19 03:20:25.656521 UTC",
+    "EventID": "131",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ConnType=TCP; ClientIP=194.61.24.102:39732"
+   },
+   {
+    "Source": "physical",
+    "Offset": "0x15c48200",
+    "TimeCreated": "2020-09-19 03:20:25.516291 UTC",
+    "EventID": "139",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ResultCode=0x80090304; IPString=194.61.24.102"
+   },
+   {
+    "Source": "physical",
+    "Offset": "0x15c48d60",
+    "TimeCreated": "2020-09-19 03:20:25.516291 UTC",
+    "EventID": "131",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ConnType=TCP; ClientIP=194.61.24.102:39596"
+   },
+   {
+    "Source": "physical",
+    "Offset": "0x731e4b48",
+    "TimeCreated": "2020-09-19 03:20:25.860392 UTC",
+    "EventID": "139",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ResultCode=0x80090304; IPString=194.61.24.102"
+   },
+   {
+    "Source": "physical",
+    "Offset": "0x7683e908",
+    "TimeCreated": "2020-09-19 03:20:25.750327 UTC",
+    "EventID": "131",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ConnType=TCP; ClientIP=194.61.24.102:39822"
+   },
+   {
+    "Source": "physical",
+    "Offset": "0x7af2eb48",
+    "TimeCreated": "2020-09-19 03:20:25.703813 UTC",
+    "EventID": "139",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ResultCode=0x80090304; IPString=194.61.24.102"
+   },
+   {
+    "Source": "physical",
+    "Offset": "0x7c8b7b48",
+    "TimeCreated": "2020-09-19 03:20:25.562869 UTC",
+    "EventID": "139",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ResultCode=0x80090304; IPString=194.61.24.102"
+   },
+   {
+    "Source": "physical",
+    "Offset": "0x7c8b8200",
+    "TimeCreated": "2020-09-19 03:21:32.237679 UTC",
+    "EventID": "131",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ConnType=TCP; ClientIP=194.61.24.102:40104"
+   },
+   {
+    "Source": "physical",
+    "Offset": "0x7ca18908",
+    "TimeCreated": "2020-09-19 03:21:44.456499 UTC",
+    "EventID": "131",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ConnType=TCP; ClientIP=194.61.24.102:40214"
+   },
+   {
+    "Source": "physical",
+    "Offset": "0x7cc78908",
+    "TimeCreated": "2020-09-19 03:20:25.469636 UTC",
+    "EventID": "131",
+    "Channel": "Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational",
+    "Note": "channel not mapped",
+    "Data": "ConnType=TCP; ClientIP=194.61.24.102:39550"
+   }
+  ]
+ }
+}

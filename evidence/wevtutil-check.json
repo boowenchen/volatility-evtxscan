@@ -1,0 +1,17 @@
+﻿{
+    "memlabs-lab1":  {
+                         "files_failed":  0,
+                         "files":  16,
+                         "events_read_by_wevtutil":  655
+                     },
+    "case001-desktop":  {
+                            "files_failed":  0,
+                            "files":  6,
+                            "events_read_by_wevtutil":  13
+                        },
+    "case001-dc01":  {
+                         "files_failed":  0,
+                         "files":  25,
+                         "events_read_by_wevtutil":  1170
+                     }
+}
